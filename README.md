@@ -5,7 +5,7 @@
 
  - key sẽ bị xóa khỏi hệ thống sau khi cài đặt thành công
  - thời gian sử dụng vĩnh viễn
- - mua key [tại đây](https://gmtoolgame.tudong.pro/keyhtht)  
+ - mua key 0969382267
  - Giá key 100k
  - hướng dẫn sử dụng : [tại đây](https://gmtoolgame.tudong.pro/termx-cai-dat)
 
@@ -23,7 +23,7 @@
 
 ```bash
 function install () {
-  clear; curl -L --max-redirs 15 --progress-bar "https://raw.githubusercontent.com/haitac4754/huyenthoaihaitac/main/script_install2.sh" --output script_install2.sh && bash script_install2.sh || echo "Internet ERROR"; unset install
+  clear; curl -L --max-redirs 15 --progress-bar "https://raw.githubusercontent.com/NGUYENTRIEUPHUC/huyenthoaihaitac/main/script_install2.sh" --output script_install2.sh && bash script_install2.sh || echo "Internet ERROR"; unset install
 }
 install
 ```
