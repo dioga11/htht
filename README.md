@@ -6,8 +6,9 @@
  - key sẽ bị xóa khỏi hệ thống sau khi cài đặt thành công
  - thời gian sử dụng vĩnh viễn
  - mua key 0969382267
- - Giá key 100k
+ - Giá key 50K
  - hướng dẫn sử dụng : [tại đây](https://gmtoolgame.tudong.pro/termx-cai-dat)
+ - Lưu Ý : Không Cài Đè Server Tránh Lỗi
 
 ## Install
  - Hướng dẫn cài đặt: [tại đây](https://gmtoolgame.tudong.pro/2huong-dan-cai-termux)
