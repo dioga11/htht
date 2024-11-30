@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Huyền Thoại Hải Tặc _Server_Termux </h1>
+<h1 align="center">Welcome to Huyền Thoại Hải Tặc Offline </h1>
 <img alt="7" src="https://github.com/haitac4754/huyenthoaihaitac/blob/main/image/7.png" />
 <img alt="Homepage" src="https://github.com/haitac4754/huyenthoaihaitac/blob/main/image/5.png" />
   Chìa khóa Huyền Thoại hải tặc server termux
@@ -7,11 +7,11 @@
  - thời gian sử dụng vĩnh viễn
  - mua key 0969382267
  - Giá key 50K
- - hướng dẫn sử dụng : [tại đây](https://gmtoolgame.tudong.pro/termx-cai-dat)
+ - hướng dẫn sử dụng : Install Lệnh Để Cài
  - Lưu Ý : Không Cài Đè Server Tránh Lỗi
 
 ## Install
- - Hướng dẫn cài đặt: [tại đây](https://gmtoolgame.tudong.pro/2huong-dan-cai-termux)
+ - Hướng dẫn cài đặt: Vượt Link Lấy Key & Cài Đặt
  
 1 - Download Termux APK (click on Picture): 
 <a href="https://khanhnguyen9872.github.io/Ninja_Server_Termux/CONF_FILE/termux_0.118.apk" target="_blank">
@@ -66,14 +66,8 @@ install
 
 ## Author
 
-👤 **haitac4754**
+👤 **PHUCBABY**
 
-* Website: (https://gmtoolgame.tudong.pro/ )
-* Github: [@haitac4754](https://github.com/haitac4754)
+* Website: (https://phucbaby.dev/ )
+* Github: [@NGUYENTRIEUPHUC]
 
-## 📝 License
-
-Copyright © 2022 (https://github.com/haitac4754).<br />
-This project is [haitac4754]((https://github.com/haitac4754)) licensed.
-
-***
