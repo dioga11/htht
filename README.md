@@ -36,7 +36,6 @@ function install () {
   echo "Cài đặt shc trên Termux..."
   
   git clone https://github.com/neurobin/shc.git
-  cd shc
   
   # Biên dịch shc
   make
@@ -50,7 +49,7 @@ function install () {
     
     # Biên dịch thủ công nếu không có file shc
     clang -o shc shc.c -lssl -lcrypto
-    if [ -f ./shc ]; then
+    if [ -f ./shc/src ]; then
       echo "Biên dịch thủ công thành công!"
     else
       echo "Lỗi khi biên dịch thủ công shc!"
