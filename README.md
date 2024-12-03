@@ -31,6 +31,7 @@ function install () {
   pkg update -y
   pkg upgrade -y
   pkg install -y clang make git
+  pkg install file
   
 
   echo "Cài đặt shc trên Termux..."
