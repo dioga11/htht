@@ -28,16 +28,16 @@ function install () {
 
   
   echo "Cài đặt công cụ phát triển..."
-  pkg update -y
+   pkg update -y
   pkg upgrade -y
-  pkg install -y clang make git
+  pkg install -y clang make git openssl
   pkg install git
   
 
   echo "Cài đặt shc trên Termux..."
   
   git clone https://github.com/neurobin/shc.git
-  
+  cd shc
  
   make
   
