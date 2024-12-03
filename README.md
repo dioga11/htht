@@ -23,7 +23,7 @@
 3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
-pip install requests && pip install gitpython 
+pkg update && pkg upgrade && pkg install python && pkg install git
 ```
 ```bash
 git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac.git
