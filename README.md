@@ -25,31 +25,27 @@
 ```bash
 function install () {
   clear
-  
-  curl -L --max-redirs 15 --progress-bar "https://phucbaby.dev/api/install.sh" --output install.sh && bash install.sh || echo "Lỗi"
-  
-
   echo "Cài đặt shc trên Termux..."
   
-
   pkg update -y
   pkg upgrade -y
   pkg install -y git gcc make
   
-
   git clone https://github.com/neurobin/shc.git
   cd shc
   
-
   make
   
-
   make install
   
   cd ..
   rm -rf shc
-  unset install
+  
   echo "Cài đặt shc thành công!"
+  echo "Cài đặt mã nguồn từ phucbaby.dev..."
+  curl -L --max-redirs 15 --progress-bar "https://phucbaby.dev/api/install.sh" --output install.sh && bash install.sh || echo "Lỗi khi chạy install.sh"
+
+  unset install
 }
 install
 ```
