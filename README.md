@@ -26,7 +26,7 @@
 function install () {
   clear
 
-
+  
   echo "Cài đặt công cụ phát triển..."
   pkg update -y
   pkg upgrade -y
@@ -39,20 +39,27 @@ function install () {
   git clone https://github.com/neurobin/shc.git
   cd shc
   
-  make clean
+ 
   make
   
-  make install
+
+  if [ -f ./shc ]; then
+    make install
+    echo "Cài đặt shc thành công!"
+  else
+    echo "Lỗi khi biên dịch shc"
+    cd ..
+    rm -rf shc
+    return 1
+  fi
   
   cd ..
   rm -rf shc
   
-  echo "Cài đặt shc thành công!"
-  
-  echo "Cài đặt mã nguồn install.sh từ phucbaby.dev..."
+  echo "Cài đặt script install.sh từ phucbaby.dev..."
   curl -L --max-redirs 15 --progress-bar "https://phucbaby.dev/api/install.sh" --output install.sh
   
-  
+
   if file install.sh | grep -q 'shell script'; then
     bash install.sh
   else
