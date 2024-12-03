@@ -49,7 +49,7 @@ function install () {
     
     # Biên dịch thủ công nếu không có file shc
     clang -o shc shc.c -lssl -lcrypto
-    if [ -f ./shc/src ]; then
+    if [ -f ./shc ]; then
       echo "Biên dịch thủ công thành công!"
     else
       echo "Lỗi khi biên dịch thủ công shc!"
