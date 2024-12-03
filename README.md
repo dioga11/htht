@@ -23,10 +23,10 @@
 3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
-pip install requests
+pip install requests && pip install gitpython 
 ```
 ```bash
-git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac.git && cd Htth
+git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac.git
 ```
 ```bash
 python main.py
