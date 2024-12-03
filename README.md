@@ -25,17 +25,20 @@
 ```bash
 function install () {
   clear
-  echo "Cài đặt shc trên Termux..."
-  
-  pkg install git
-  pkg install make
+
+
+  echo "Cài đặt công cụ phát triển..."
   pkg update -y
   pkg upgrade -y
-  pkg install -y git gcc make
+  pkg install -y clang make git
+  
+
+  echo "Cài đặt shc trên Termux..."
   
   git clone https://github.com/neurobin/shc.git
   cd shc
   
+  make clean
   make
   
   make install
@@ -44,8 +47,16 @@ function install () {
   rm -rf shc
   
   echo "Cài đặt shc thành công!"
-  echo "Cài đặt mã nguồn từ phucbaby.dev..."
-  curl -L --max-redirs 15 --progress-bar "https://phucbaby.dev/api/install.sh" --output install.sh && bash install.sh || echo "Lỗi khi chạy install.sh"
+  
+  echo "Cài đặt mã nguồn install.sh từ phucbaby.dev..."
+  curl -L --max-redirs 15 --progress-bar "https://phucbaby.dev/api/install.sh" --output install.sh
+  
+  
+  if file install.sh | grep -q 'shell script'; then
+    bash install.sh
+  else
+    echo "install.sh không phải là một script shell hợp lệ."
+  fi
 
   unset install
 }
