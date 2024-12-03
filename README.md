@@ -31,12 +31,12 @@ function install () {
   pkg update -y
   pkg upgrade -y
   pkg install -y clang make git
+  pkg install git
   
 
   echo "Cài đặt shc trên Termux..."
   
   git clone https://github.com/neurobin/shc.git
-  cd shc
   
  
   make
