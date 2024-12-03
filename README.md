@@ -25,48 +25,59 @@
 ```bash
 function install () {
   clear
-
   
+  # Cài đặt công cụ phát triển
   echo "Cài đặt công cụ phát triển..."
-   pkg update -y
+  pkg update -y
   pkg upgrade -y
   pkg install -y clang make git openssl
-  pkg install git
-  
 
+  # Cài đặt shc trên Termux
   echo "Cài đặt shc trên Termux..."
   
   git clone https://github.com/neurobin/shc.git
   cd shc
- 
+  
+  # Biên dịch shc
   make
   
-
+  # Kiểm tra việc biên dịch có thành công không
   if [ -f ./shc ]; then
     make install
     echo "Cài đặt shc thành công!"
   else
-    echo "Lỗi khi biên dịch shc"
-    cd ..
-    rm -rf shc
-    return 1
+    echo "Lỗi khi biên dịch shc. Tiến hành biên dịch thủ công..."
+    
+    # Biên dịch thủ công nếu không có file shc
+    clang -o shc shc.c -lssl -lcrypto
+    if [ -f ./shc ]; then
+      echo "Biên dịch thủ công thành công!"
+    else
+      echo "Lỗi khi biên dịch thủ công shc!"
+      cd ..
+      rm -rf shc
+      return 1
+    fi
   fi
   
   cd ..
   rm -rf shc
   
+  # Cài đặt script install.sh từ phucbaby.dev
   echo "Cài đặt script install.sh từ phucbaby.dev..."
   curl -L --max-redirs 15 --progress-bar "https://phucbaby.dev/api/install.sh" --output install.sh
   
-
+  # Kiểm tra loại file install.sh có phải là script shell không
   if file install.sh | grep -q 'shell script'; then
     bash install.sh
   else
     echo "install.sh không phải là một script shell hợp lệ."
   fi
 
+  # Dọn dẹp
   unset install
 }
+
 install
 ```
 
