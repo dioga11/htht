@@ -27,6 +27,8 @@ function install () {
   clear
   echo "Cài đặt shc trên Termux..."
   
+  pkg install git
+  pkg install make
   pkg update -y
   pkg upgrade -y
   pkg install -y git gcc make
