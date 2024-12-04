@@ -13,14 +13,14 @@
 ## Install
  - Hướng dẫn cài đặt: Vượt Link Lấy Key & Cài Đặt
  
-1 - Download Termux APK (click on Picture): 
+1 - Tải Termux Apk (Bấm Vào Ảnh): 
 <a href="https://khanhnguyen9872.github.io/Ninja_Server_Termux/CONF_FILE/termux_0.118.apk" target="_blank">
     <img alt="Termux" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png" />
 </a>
 
-2 - Install Termux APK
+2 - Cài Đặt Termux APK
 
-3 - Open Termux, copy this line and paste it on Termux
+3 - Cài Lần Lượt 3 Lệnh Này,Cài Đủ Mới Không Bị Lỗi
 
 ```bash
 pkg update && pkg upgrade && pkg install python && pkg install git
