@@ -23,13 +23,7 @@
 3 - Cài Lần Lượt 3 Lệnh Này,Cài Đủ Mới Không Bị Lỗi
 
 ```bash
-pkg update && pkg upgrade && pkg install python && pkg install git && pip install tqdm
-```
-```bash
-git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac.git
-```
-```bash
-python main.py
+pkg update && pkg upgrade && pkg install python && pkg install git && pip install tqdm && git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac.git && python main.py
 ```
 4 - Wait for install!
  
