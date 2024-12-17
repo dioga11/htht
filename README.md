@@ -7,7 +7,7 @@
  - key sẽ bị xóa khỏi hệ thống sau khi cài đặt thành công
  - thời gian sử dụng vĩnh viễn
  - mua key 0969382267
- - Giá key 50K
+ - Giá key 49K
  - hướng dẫn sử dụng : Install Lệnh Để Cài
  - Lưu Ý : Không Cài Đè Server Tránh Lỗi
 
