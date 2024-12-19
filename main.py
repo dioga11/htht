@@ -2,7 +2,9 @@ O='eJwrTwIAAVIA2g=='
 N=input
 G=exit
 C=print
-import zlib as A,base64 as B,os,requests as D
+import zlib as A,base64 as B,os,platform,requests as D,json
+from tqdm import tqdm
+import time
 C((lambda s:A.decompress(B.b64decode(s)).decode())('eJzjUgACXQWP0EhXP4UQD39HTwUPIA5xdAaKZpSUFBRb6etnlFam5pVk5CdmZiRmliQm6yVl5uvlZOZlc3EBACjSExg='))
 C((lambda s:A.decompress(B.b64decode(s)).decode())('eJxTUFBQ0FVwd/R1VTgy4dj6h7sXOSsEeBxuDFEICfJ8uLvJT8Hp4e55nkCxUGcnR6dIoGLfUEeFYP/QIGdXBR/Pw11+Ch4Pd7cpRDn6+CsAlQLF/LwVnEDiLiDzZnkqcHEBAI0mJhI='))
 C((lambda s:A.decompress(B.b64decode(s)).decode())('eJwBNADL/yAgICAtIEtFWSBT4busIEThu6RORyBIVVnhu4BOIFRIT+G6oEkgSOG6okkgVOG6tkMgCgoINBTk'))
@@ -23,7 +25,7 @@ if S not in L:C((lambda s:A.decompress(B.b64decode(s)).decode())('eJzj8k6tVMjOOL
 try:
 	T=D.get(Q);M=T.text.strip();C(f"\nPhiên bản hiện tại: {J}");C(f"Phiên bản mới nhất: {M}")
 	if J!=M:
-		C((lambda s:A.decompress(B.b64decode(s)).decode())('eJzjCsjIPLwqTyHp4a7FeQq5D3fPzlQ4MvHwYoXkw5sVih/u2pqnqOD0cNfCPIXkh7uWg8m1BQp5GUCqRA8Ar7EfAg=='));U=N("Nhập (lambda s: zlib.decompress(base64.b64decode(s)).decode())('eJwzBAAAMgAy') để cập nhật tự động, hoặc bất kỳ phím nào để bỏ qua: ").strip()
+		C((lambda s:A.decompress(B.b64decode(s)).decode())('eJzjCsjIPLwqTyHp4a7FeQq5D3fPzlQ4MvHwYoXkw5sVih/u2pqnqOD0cNfCPIXkh7uWg8m1BQp5GUCqRA8Ar7EfAg=='));U=N((lambda s:A.decompress(B.b64decode(s)).decode())('eJzzy3i4a22BgqHCkYkPdzcrJIN5eSDBEoWSh7s3gsVn5qXrKGTkP9y1PVkh6eGupSUK2Q93b1YoyDi8Nlch7/CCfKjupIe7+xUKSxOtFADbYyzA')).strip()
 		if U==(lambda s:A.decompress(B.b64decode(s)).decode())('eJwzBAAAMgAy'):
 			if os.path.isfile(F):os.remove(F);C((lambda s:A.decompress(B.b64decode(s)).decode())('eJw7MuHwYoWKw5sTFdIyc1IVko+u1AMAYjMJCQ=='))
 			C((lambda s:A.decompress(B.b64decode(s)).decode())('eJw7MiExL12h5OGuxZkKBRmZh1flKSQBOXkKuQ93z87U09MDABhyD+c='))
