@@ -24,7 +24,7 @@
 3 - Cài Lần Lượt 3 Lệnh Này,Cài Đủ Mới Không Bị Lỗi
 
 ```bash
-pkg update && pkg upgrade && pkg install python && pip install requests && pip install tqdm && pip install colorama && git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac && cd huyenthoaihaitac && python main.py
+pkg update && pkg upgrade && okg install git && pkg install python && pip install requests && pip install tqdm && pip install colorama && git clone https://github.com/NGUYENTRIEUPHUC/huyenthoaihaitac && cd huyenthoaihaitac && python main.py
 ```
 4 - Wait for install!
  
