@@ -9,7 +9,7 @@
  - thời gian sử dụng vĩnh viễn
  - mua key 0969382267
  - Giá key 50K ATM & CARD
- - HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG : <a href="https://www.youtube.com/watch?v=amse3DNsUdI">
+ - HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG : <a href="https://www.youtube.com/watch?v=amse3DNsUdI" target="_blank" >
  - Lưu Ý : Không Cài Đè Server Tránh Lỗi
 
 ## Install
