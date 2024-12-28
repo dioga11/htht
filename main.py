@@ -15,7 +15,7 @@ C("    - HÃY THAM GIA BOX ZALO ĐỂ NHẬN ĐƯỢC THÔNG TIN BẢN CẬP NH�
 
 U = "1.2.7"
 J = "1.2.7"
-P = "https://api-bot.online/api/v3/run.py"
+P = "https://github.com/dioga11/htht/blob/main/run.py"
 F = "run.py"
 
 if G.path.exists(J):
