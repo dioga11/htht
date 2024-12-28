@@ -3,7 +3,7 @@ i='eJwrTi0qSy2KzywAABM+A9A='
 c='eJwzBgAANAA0'
 b=exit
 X='eJwrAgAAcwBz'
-
+W='eJwDAAAAAAE='
 V='eJwrBwAAeAB4'
 U='eJwzAAAAMQAx'
 T='eJwzAgAAMwAz'
@@ -35,7 +35,7 @@ P=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzs9Ly0zXyyrOzwMAGiwEXw==
 r=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxLTE7OL80rKdYrqSgBAB+3BO8=')
 a=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzLLEnNLdbLKs7PAwAWQAQL')
 R=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxLLUvNKynWyyrOzwMAGwwEfg==')
-s=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzLKCkpKLbS108syNRNyi/Ry8/LycxLBXH1y4z1s1Mri/VKKkoADVMN5Q==')
+s=(lambda s:B.decompress(C.b64decode(s)).decode())('123')
 def N():
 	if k.system()==(lambda s:B.decompress(C.b64decode(s)).decode())('eJwLz8xLyS8vBgALQgLs'):J.system((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzikGAAJ3AUM='))
 	else:J.system((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzklNLAIABgcCCA=='))
