@@ -24,17 +24,17 @@ Q=K.BLUE
 d=K.MAGENTA
 Z=K.CYAN
 A=K.RESET
-l=(lambda s:B.decompress(C.b64decode(s)).decode())('https://vinaflash.cloud/HUYENTHOAIHAITAC_OFFLINE_V1.apk')
-m=(lambda s:B.decompress(C.b64decode(s)).decode())('https://320.gsscdn.com/HTDC_20241113.ipa')
-n=(lambda s:B.decompress(C.b64decode(s)).decode())('HUYENTHOAIHAITAC_OFFLINE.apk')
-o=(lambda s:B.decompress(C.b64decode(s)).decode())('HAITACDAICHIEN_OFFLINE.ipa')
-e=J.path.join(J.path.expanduser((lambda s:B.decompress(C.b64decode(s)).decode())('~')),(lambda s:B.decompress(C.b64decode(s)).decode())('Downloads'))
+l=(lambda B.decompress(C.b64decode).decode())('https://vinaflash.cloud/HUYENTHOAIHAITAC_OFFLINE_V1.apk')
+m=(lambda B.decompress(C.b64decode).decode())('https://320.gsscdn.com/HTDC_20241113.ipa')
+n=(lambda B.decompress(C.b64decode).decode())('HUYENTHOAIHAITAC_OFFLINE.apk')
+o=(lambda B.decompress(C.b64decode).decode())('HAITACDAICHIEN_OFFLINE.ipa')
+e=J.path.join(J.path.expanduser((lambda B.decompress(C.b64decode(s)).decode())('~')),(lambda B.decompress(C.b64decode).decode())('Downloads'))
 p=J.path.join(e,n)
 q=J.path.join(e,o)
-P=(lambda s:B.decompress(C.b64decode(s)).decode())('config.json')
-r=(lambda s:B.decompress(C.b64decode(s)).decode())('accounts.txt')
-a=(lambda s:B.decompress(C.b64decode(s)).decode())('items.json')
-R=(lambda s:B.decompress(C.b64decode(s)).decode())('events.json')
+P=(lambda s:B.decompress(C.b64decode).decode())('config.json')
+r=(lambda s:B.decompress(C.b64decode).decode())('accounts.txt')
+a=(lambda s:B.decompress(C.b64decode).decode())('items.json')
+R=(lambda s:B.decompress(C.b64decode).decode())('events.json')
 def N():
 	if k.system()==(lambda s:B.decompress(C.b64decode(s)).decode())('Windows'):J.system((lambda s:B.decompress(C.b64decode(s)).decode())('cls'))
 	else:J.system((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzklNLAIABgcCCA=='))
