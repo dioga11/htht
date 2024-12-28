@@ -1,13 +1,13 @@
-j='eJwzAQAANQA1'
-i='eJwrTi0qSy2KzywAABM+A9A='
-c='eJwzBgAANAA0'
+j='4'
+i='server_ip'
+c='3'
 b=exit
-X='eJwrAgAAcwBz'
-W='eJwDAAAAAAE='
-V='eJwrBwAAeAB4'
-U='eJwzAAAAMQAx'
-T='eJwzAgAAMwAz'
-S='eJwzBAAAMgAy'
+X='r'
+
+V='w'
+U='0'
+T='2'
+S='1'
 O=True
 L=open
 H=input
@@ -24,35 +24,35 @@ Q=K.BLUE
 d=K.MAGENTA
 Z=K.CYAN
 A=K.RESET
-l=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzLKCkpKLbS1y/LzEtMy0ksztBLzskvTdH3CI109Qvx8Hf09HD0DHF0jvd3c/Px9HONDzPUSyzIBgAbYxJW')
-m=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzLKCkpKLbS1zc2MtBLLy5OTsnTS87P1fcIcXGONzIwMjE0NDTWyyxIBAAGQwwl')
-n=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzCI109Qvx8Hf09HD0DHF0jvd3c/Px9HPVSyzIBgB4Twh1')
-o=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzcPQMcXR2cfR09vB09Yv3d3Pz8fRz1cssSAQAY0IHqg==')
-e=J.path.join(J.path.expanduser((lambda s:B.decompress(C.b64decode(s)).decode())('eJyrAwAAfwB/')),(lambda s:B.decompress(C.b64decode(s)).decode())('eJxzyS/Py8lPTCkGABHwA6w='))
+l=(lambda s:B.decompress(C.b64decode(s)).decode())('https://vinaflash.cloud/HUYENTHOAIHAITAC_OFFLINE_V1.apk')
+m=(lambda s:B.decompress(C.b64decode(s)).decode())('https://320.gsscdn.com/HTDC_20241113.ipa')
+n=(lambda s:B.decompress(C.b64decode(s)).decode())('HUYENTHOAIHAITAC_OFFLINE.apk')
+o=(lambda s:B.decompress(C.b64decode(s)).decode())('HAITACDAICHIEN_OFFLINE.ipa')
+e=J.path.join(J.path.expanduser((lambda s:B.decompress(C.b64decode(s)).decode())('~')),(lambda s:B.decompress(C.b64decode(s)).decode())('Downloads'))
 p=J.path.join(e,n)
 q=J.path.join(e,o)
-P=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzs9Ly0zXyyrOzwMAGiwEXw==')
-r=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxLTE7OL80rKdYrqSgBAB+3BO8=')
-a=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzLLEnNLdbLKs7PAwAWQAQL')
-R=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxLLUvNKynWyyrOzwMAGwwEfg==')
-s=(lambda s:B.decompress(C.b64decode(s)).decode())('eJzLKCkpKLbS108syNRNyi/Ry8/LycxLBXH1y4z1s1Mri/VKKkoADVMN5Q==')
+P=(lambda s:B.decompress(C.b64decode(s)).decode())('config.json')
+r=(lambda s:B.decompress(C.b64decode(s)).decode())('accounts.txt')
+a=(lambda s:B.decompress(C.b64decode(s)).decode())('items.json')
+R=(lambda s:B.decompress(C.b64decode(s)).decode())('events.json')
+s=(lambda s:B.decompress(C.b64decode(s)).decode())('https://api-bot.online/api/v3/keys.txt')
 def N():
-	if k.system()==(lambda s:B.decompress(C.b64decode(s)).decode())('eJwLz8xLyS8vBgALQgLs'):J.system((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzikGAAJ3AUM='))
+	if k.system()==(lambda s:B.decompress(C.b64decode(s)).decode())('Windows'):J.system((lambda s:B.decompress(C.b64decode(s)).decode())('cls'))
 	else:J.system((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzklNLAIABgcCCA=='))
 def f(O0O0O0O0O0O0O00O00O00O0O00O00O0O00O0O00O0O00O0O00O00O0O0O0O00O00O0O0O00O0O0O00O00O0O00O00O0O00O0O00O00O00O00O00O00O00O00O0O00O0O00O00O0O00O0O00O0O00O0O0O00O00O00O00O00O0O00O0O00O0O00O0O00O0O00O0O00O0O0O0O00O00O0O0O00O0O00O0O0O00O00O00O00O00O0O0O0O0O00O0O0O0O00O00O00O00):
 	D(f"{Z}{O0O0O0O0O0O0O00O00O00O0O00O00O0O00O0O00O0O00O0O00O00O0O0O0O00O00O0O0O00O0O0O00O00O0O00O00O0O00O0O00O00O00O00O00O00O00O00O0O00O0O00O00O0O00O0O00O0O00O0O0O00O00O00O00O00O0O00O0O00O0O00O0O00O0O00O0O00O0O0O0O00O00O0O0O00O0O00O0O0O00O00O00O00O00O0O0O0O0O00O0O0O0O00O00O00O00}{A}",end=(lambda s:B.decompress(C.b64decode(s)).decode())(W))
-	for E in range(3):D((lambda s:B.decompress(C.b64decode(s)).decode())('eJzTAwAALwAv'),end=(lambda s:B.decompress(C.b64decode(s)).decode())(W),flush=O);I.sleep(.5)
+	for E in range(3):D((lambda s:B.decompress(C.b64decode(s)).decode())('.'),end=(lambda s:B.decompress(C.b64decode(s)).decode())(W),flush=O);I.sleep(.5)
 	D((lambda s:B.decompress(C.b64decode(s)).decode())(W))
 def g():
-	F=[(lambda s:B.decompress(C.b64decode(s)).decode())('eJw7MiExL12h5OGuxZkKbpk5qQrOD3ctLVXwOLwmL0MhOLWoLLUIACX1D8I='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzyU9MUQh+uHujgnfmw93teQohGYcX5GUoOB/ekpcOAMT/DWo='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzyU9MUQh7uGttiUJAxsNdK3MVQjIOL8jLUHA+vCUvHQDUzQ4A'),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzyU9MUfBNLFAIyTi8IC9Dwfnwlrx0AFX/CIM='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzyU9MUQg5vCBTwS+9tPLwqjyFkIzDC/IyFJwPb8lLBwDCtQ0j'),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzzni4e36mQsjDXQvzFZyPLVRwBvIVXB7uXq/gk/lwd3spAB2vEPs='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzzny4uzlXIaQoUcH52EKF4Ie75yu4PNy9XsEHKNFeqhCScXhBXoaC8+EteekA0kcU4A=='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzzny4uzlXIaQoUcH74a79JQp+D3dPzFTwfbhrYV46ANBdDkM='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzfrhrf4mC38PdEzMVHAM8FcICggFeuwgx'),(lambda s:B.decompress(C.b64decode(s)).decode())('eJzzzni4e36mwpEJD3fPzEtXCM3LLKkEAG/ICg8='),(lambda s:B.decompress(C.b64decode(s)).decode())('eJxzzni4a2GlQkjGw91rFfzSMzIf7m7PVQhOLSpLLdLT0wMA8kMN3Q==')]
+	F=[(lambda s:B.decompress(C.b64decode(s)).decode())('Đang tải File Cấu Hình Server'),(lambda s:B.decompress(C.b64decode(s)).decode())('Load Sự Kiện Thành Công'),(lambda s:B.decompress(C.b64decode(s)).decode())('Load Vật Phẩm Thành Công'),(lambda s:B.decompress(C.b64decode(s)).decode())('Load Map Thành Công'),(lambda s:B.decompress(C.b64decode(s)).decode())('Load Tài Nguyên Thành Công'),(lambda s:B.decompress(C.b64decode(s)).decode())('Khởi Tạo Cơ Cở Dữ Liệu'),(lambda s:B.decompress(C.b64decode(s)).decode())('Kiểm Tra Cơ Sở Dữ Liệu Thành Công'),(lambda s:B.decompress(C.b64decode(s)).decode())('Kiểm Tra Kết Nối Mạng'),(lambda s:B.decompress(C.b64decode(s)).decode())('Kết Nối API VPS'),(lambda s:B.decompress(C.b64decode(s)).decode())('Khởi Động Unity'),(lambda s:B.decompress(C.b64decode(s)).decode())('Chạy Thử Nghiệm Server...')]
 	for G in F:f(G);I.sleep(1.5)
 	D(f"{E}Server đã sẵn sàng hoạt động!{A}");I.sleep(1)
-def t():f((lambda s:B.decompress(C.b64decode(s)).decode())('eJw7MiExL10hO+Ph7vmZCkcmPtw9E8gtTi0qSy3S09MDAOm3DeI='));D(f"{E}Server đang chạy thành công!{A}");I.sleep(1.5)
+def t():f((lambda s:B.decompress(C.b64decode(s)).decode())('Đang khởi động server...'));D(f"{E}Server đang chạy thành công!{A}");I.sleep(1.5)
 def h(O0O0O0O0O0O0O0O0O00O00O00O00O0O00O0O0O00O00O0O0O00O0O00O0O0O0O00O00O00O0O00O00O00O00O00O00O0O00O00O0O00O0O0O0O00O0O0O00O0O00O0O00O00O00O0O0O00O0O0O0O00O0O00O00O0O0O00O0O00O00O0O00O00O00O00O0O00O0O0O00O0O00O00O0O0O0O0O0O00O0O0O0O0O00O0O0O0O00O00O0O0O0O00O00O00O00O0,O0O0O0O0O0O0O0O0O0O0O00O0O00O00O00O0O00O00O00O00O00O00O0O0O0O00O00O0O0O00O0O00O0O00O00O00O0O00O00O00O0O00O0O00O0O0O0O00O00O00O00O0O0O00O0O00O0O0O00O00O0O0O00O0O0O0O00O00O00O00O00O00O0O00O00O0O0O00O0O0O0O00O00O0O00O00O00O00O00O0O0O0O0O0O0O0O00O0O00O00O00O0O00O0O00O0O0O00):
 	F=O0O0O0O0O0O0O0O0O0O0O00O0O00O00O00O0O00O00O00O00O00O00O0O0O0O00O00O0O0O00O0O00O0O00O00O00O0O00O00O00O0O00O0O00O0O0O0O00O00O00O00O0O0O00O0O00O0O0O00O00O0O0O00O0O0O0O00O00O00O00O00O00O0O00O00O0O0O00O0O0O0O00O00O0O00O00O00O00O00O0O0O0O0O0O0O0O00O0O00O00O00O0O00O0O00O0O0O00;G=J.path.dirname(F)
 	if not J.path.exists(G):J.makedirs(G)
-	H=Y.get(O0O0O0O0O0O0O0O0O00O00O00O00O0O00O0O0O00O00O0O0O00O0O00O0O0O0O00O00O00O0O00O00O00O00O00O00O0O00O00O0O00O0O0O0O00O0O0O00O0O00O0O00O00O00O0O0O00O0O0O0O00O0O00O00O0O0O00O0O00O00O0O00O00O00O00O0O00O0O0O00O0O00O00O0O0O0O0O0O00O0O0O0O0O00O0O0O0O00O00O0O0O0O00O00O00O00O0,stream=O);M=int(H.headers.get((lambda s:B.decompress(C.b64decode(s)).decode())('eJxLzs8rSc0r0c1JzUsvyQAAKqgFqw=='),0))
-	with L(F,(lambda s:B.decompress(C.b64decode(s)).decode())('eJwrTwIAAVIA2g=='))as N,tqdm(total=M,unit=(lambda s:B.decompress(C.b64decode(s)).decode())('eJxzAgAAQwBD'),unit_scale=O,desc=f"Tải về {F}")as P:
+	H=Y.get(O0O0O0O0O0O0O0O0O00O00O00O00O0O00O0O0O00O00O0O0O00O0O00O0O0O0O00O00O00O0O00O00O00O00O00O00O0O00O00O0O00O0O0O0O00O0O0O00O0O00O0O00O00O00O0O0O00O0O0O0O00O0O00O00O0O0O00O0O00O00O0O00O00O00O00O0O00O0O0O00O0O00O00O0O0O0O0O0O00O0O0O0O0O00O0O0O0O00O00O0O0O0O00O00O00O00O0,stream=O);M=int(H.headers.get((lambda s:B.decompress(C.b64decode(s)).decode())('content-length'),0))
+	with L(F,(lambda s:B.decompress(C.b64decode(s)).decode())('wb'))as N,tqdm(total=M,unit=(lambda s:B.decompress(C.b64decode(s)).decode())('B'),unit_scale=O,desc=f"Tải về {F}")as P:
 		for K in H.iter_content(1024):N.write(K);P.update(len(K))
 	D(f"{E}File đã tải về thành công tại {F}{A}");I.sleep(1.5)
 def u():
@@ -149,7 +149,7 @@ def A2():
 		elif J==(lambda s:B.decompress(C.b64decode(s)).decode())(T):t()
 		elif J==(lambda s:B.decompress(C.b64decode(s)).decode())(c):u()
 		elif J==(lambda s:B.decompress(C.b64decode(s)).decode())(j):v()
-		elif J==(lambda s:B.decompress(C.b64decode(s)).decode())('eJwzBQAANgA2'):A1()
+		elif J==(lambda s:B.decompress(C.b64decode(s)).decode())('5'):A1()
 		elif J==(lambda s:B.decompress(C.b64decode(s)).decode())(U):D(f"{G}Thoát chương trình...{A}");b(0)
 		else:D(f"{G}Lựa chọn không hợp lệ!{A}");I.sleep(1.5)
-if __name__==(lambda s:B.decompress(C.b64decode(s)).decode())('eJyLj89NzMyLjwcADhcDIg=='):A2()
+if __name__==(lambda s:B.decompress(C.b64decode(s)).decode())('__main__'):A2()
