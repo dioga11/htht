@@ -68,7 +68,16 @@ def v():
 	elif I==(lambda s:B.decompress(C.b64decode(s)).decode())(U):return
 	else:D(f"{G}Lựa chọn không hợp lệ!{A}")
 	H(f"{F}Nhấn Enter để tiếp tục...{A}")
-
+def w():
+	try:K=Y.get(s);I=K.text.strip()
+	except Y.RequestException as L:D(f"{G}Không thể tải key. Lỗi: {L}{A}");b(1)
+	if not I:D(f"{G}Không thể tải key. Kiểm tra lại đường dẫn hoặc kết nối mạng.{A}");b(1)
+	M=I.splitlines()
+	while O:
+		J=H(f"{F}Nhập key để tiếp tục cài đặt: {A}").strip()
+		if J==(lambda s:B.decompress(C.b64decode(s)).decode())(W):D(f"{G}Key không được để trống. Vui lòng nhập lại.{A}");continue
+		if J not in M:D(f"{G}Key không đúng, vui lòng liên hệ admin mua key.{A}")
+		else:D(f"{E}Key hợp lệ!{A}");break
 def A3():
 	N();D(f"{Q}===== KHỞI ĐỘNG SERVER ====={A}")
 	if J.path.exists(P):
