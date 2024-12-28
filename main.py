@@ -24,31 +24,7 @@ if G.path.exists(J):
         L = K.read().strip()
 else:
     L = "1.0.0"
-
-try:
-    V = D.get(T)
-    Q = V.text.strip()
-except D.RequestException as E:
-    C(f"Không thể tải key. Lỗi: {E}")
-    H(1)
-
-if not Q:
-    C("Không thấy key. Vui lòng kiểm tra lại.")
-    H(1)
-
-W = Q.splitlines()
-
-while True:
-    R = input("Nhập key: ").strip()
-    if R == "":
-        C("Key không được để trống. Vui lòng nhập lại.")
-        continue
-    if R not in W:
-        C("Key không hợp lệ. Vui lòng kiểm tra lại.")
-    else:
-        C("Key hợp lệ. Tiếp tục...")
-        break
-
+     
 try:
     X = D.get(U)
     M = X.text.strip()
