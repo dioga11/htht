@@ -260,4 +260,43 @@ def A0():
     config['server_ip'] = new_ip
     with open(P, 'w') as file:
         json.dump(config, file, indent=4)
-    print(f"{E}Cập
+    print(f"{E}Cập nhật IP thành công!{A}")
+    time.sleep(1.5)
+
+
+def main():
+    while True:
+        N()
+        print(f"{F}===== MENU ====={A}")
+        print(f"{E}1.{A} Tải game")
+        print(f"{E}2.{A} Lấy link tải")
+        print(f"{E}3.{A} Khởi động Server")
+        print(f"{E}4.{A} Quản lý tài khoản")
+        print(f"{E}5.{A} Buff vật phẩm")
+        print(f"{E}6.{A} Quản lý sự kiện")
+        print(f"{E}7.{A} Chỉnh sửa IP")
+        print(f"{E}8.{A} Thoát")
+        choice = input(f"{F}Nhập lựa chọn: {A}").strip()
+        if choice == '1':
+            u()
+        elif choice == '2':
+            v()
+        elif choice == '3':
+            A3()
+        elif choice == '4':
+            x()
+        elif choice == '5':
+            y()
+        elif choice == '6':
+            z()
+        elif choice == '7':
+            A0()
+        elif choice == '8':
+            print(f"{E}Thoát chương trình.{A}")
+            break
+        else:
+            print(f"{G}Lựa chọn không hợp lệ!{A}")
+            time.sleep(1.5)
+
+if __name__ == '__main__':
+    main()
