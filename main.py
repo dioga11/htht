@@ -6,7 +6,7 @@ H = exit
 
 # Thông báo
 C("- HUYEN THOAI HAI TAC - https://huyenthoaihaitac.bio.link")
-C("    - GAME ĐƯỢC PHÁT TRIỂN Bởi PHUCBABY - MUA SOURCE LIÊN HỆ ZALO Ở LINK BÊN DƯỚi")
+C("    - GAME ĐƯỢC PHÁT TRIỂN Bởi GARANNST - MUA SOURCE LIÊN HỆ ZALO Ở LINK BÊN DƯỚi")
 C("    - KEY Sử DỤNG HUYỀN THOẠI HẢI TẬC")
 C("    - Link Mua Key & Thông Tin Về Game :")
 C("      https://huyenthoaihaitac.bio.link")
