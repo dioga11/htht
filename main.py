@@ -13,7 +13,6 @@ C("      https://huyenthoaihaitac.bio.link")
 C("    - XIN QUÝ KHÁCH VUI LÒNG CHẠY MAIN.PY ĐịNH KÌ ĐỂ CẬP NHẬT THƯỞNG XUYÊN TRÁNH LỖI")
 C("    - HÃY THAM GIA BOX ZALO ĐỂ NHẬN ĐƯỢC THÔNG TIN BẢN CẬP NHẬT GẦN NHẤT NHÉ")
 
-T = "https://api-bot.online/api/v3/keys.txt"
 U = "https://api-bot.online/api/v3/version.txt"
 J = "version_info.txt"
 P = "https://api-bot.online/api/v3/run.py"
